@@ -1,0 +1,2 @@
+export const REQUEST_GETUSER = 'REQUEST_GETUSER'
+export const REQUEST_CASH = 'REQUEST_CASH'

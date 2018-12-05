@@ -1,0 +1,121 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"nodeModules": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"appid": "wxa263e9fa782c059b",
+	"projectname": "%E6%88%91%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"miniprogramRoot": "dist/",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的回填订单",
+					"pathName": "pages/newComer/index",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "认证免单商品",
+					"pathName": "pages/newComer/authentication",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/newComer/getGift",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "中奖记录",
+					"pathName": "pages/user/userJoin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "钱包",
+					"pathName": "pages/wallet/index",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "抽奖参与人",
+					"pathName": "pages/index/login",
+					"query": "",
+					"scene": "1012"
+				},
+				{
+					"id": 6,
+					"name": "我的卡券",
+					"pathName": "pages/user/test",
+					"query": "",
+					"scene": "1012"
+				},
+				{
+					"id": 7,
+					"name": "任务",
+					"pathName": "pages/newComer/getGift",
+					"query": "scene=1,1,1",
+					"scene": "1012"
+				},
+				{
+					"id": 8,
+					"name": "我的",
+					"pathName": "pages/index/login",
+					"query": "",
+					"scene": "1012"
+				},
+				{
+					"id": 10,
+					"name": "我的",
+					"pathName": "pages/task/taskDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "任务详情",
+					"pathName": "pages/task/taskDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/index/index",
+					"query": "uid=1"
+				}
+			]
+		}
+	}
+}

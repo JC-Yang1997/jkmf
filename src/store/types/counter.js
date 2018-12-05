@@ -1,0 +1,5 @@
+export const REQUEST_LIST = 'REQUEST_LIST'
+
+// export const REQUEST_LOGIN = 'REQUEST_LOGIN'
+
+// export const REQUEST_GETUSER = 'REQUEST_GETUSER'

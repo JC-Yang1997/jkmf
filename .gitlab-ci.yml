@@ -1,0 +1,13 @@
+stages:
+  - applet-build-deploy # 总体CI的过程，暂时只有一个job：build
+
+# 测试环境
+test-build:
+  stage: applet-build-deploy # 对应stages上的job名称
+  script:
+    - cd /home/code/git-data
+    - sh gelshell.sh
+  only:
+    - master
+  tags:
+    - test1
